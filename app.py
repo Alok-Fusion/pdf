@@ -355,7 +355,7 @@ if uploaded_file and st.button("🚀 Process PDF", type="primary", use_container
                         ocr_result = ocr_page_with_tesseract(
                             pdf_bytes,
                             i,
-                            target_dpi=350   # 👈 IMPORTANT improvement
+                            target_dpi=100   # 👈 IMPORTANT improvement
                         )
 
                         # Keep best text source
