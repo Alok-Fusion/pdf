@@ -1,0 +1,14 @@
+streamlit
+pdfplumber
+pymupdf
+pandas
+pytesseract
+pillow
+opencv-python
+numpy
+pdf2image
+easyocr
+transformers
+torch
+openpyxl
+timm
