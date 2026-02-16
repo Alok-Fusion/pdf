@@ -16,7 +16,7 @@ import traceback
 
 # --------- STANDALONE OCR (no ML dependency) ---------
 
-def ocr_page_with_tesseract(pdf_bytes, page_index, target_dpi=350):
+def ocr_page_with_tesseract(pdf_bytes, page_index, target_dpi=100):
     """OCR a single PDF page using pytesseract. Returns {text, words} with PDF-point coords."""
     doc = fitz.open(stream=pdf_bytes, filetype="pdf")
     page = doc[page_index]
