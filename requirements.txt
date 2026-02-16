@@ -4,7 +4,7 @@ pymupdf
 pandas
 pytesseract
 pillow
-opencv-python
+opencv-python-headless==4.8.1.78
 numpy
 pdf2image
 easyocr
