@@ -5,7 +5,7 @@ pandas
 pytesseract
 pillow
 opencv-python-headless==4.8.1.78
-numpy
+numpy==1.26.4
 pdf2image
 easyocr
 transformers
